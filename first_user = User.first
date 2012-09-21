@@ -1,0 +1,70 @@
+first_user = User.first
+ first_user.microposts
+ second_user.microposts
+second_user = User.first
+q
+"fooxbarxbazx".split('x','b'))
+"fooxbarxbazx".split('x')
+a = [42, 8, 17]
+ a[1]
+a.last == a[-1]
+print a
+puts a
+0..9
+0..9.to_s
+0..9.to_a
+print "a"
+(0..9).to_a
+(0..9).to_s
+a = %w[foo bar baz quux] 
+a[0..1]
+(0..1000)
+(0..1000).to_a
+(0..10000).to_a
+(0..100000).to_a
+(0..1000000).to_a
+(0..10000000).to_a
+b = (0..10000000).to_a
+b[50]
+b[500]
+b[5000]
+b[50000]
+b[500000]
+(1..5).map
+user = {}  
+user["first_name"] = "Michael"
+"hello"
+"hello".length
+"hello"[3]
+(1...9)
+(1...9)[3]
+(1...9).[3]
+(1...9).to_a
+(1...9).to_a[3]
+(1...90).to_a
+(1...900).to_a
+(1...9000).to_a
+(1...9000000).to_a
+1+1
+1/2
+1/0
+^4
+sqrt(4)
+rails -s
+rails server
+ls
+s=String("test")
+print s
+s
+s.length
+s == "test"
+controller = StaticPagesController.new
+controller.class
+controller.class.superclass.superclass
+man grep
+require './example_user'
+user = User.first
+user.update_attributes(name: "Example User",
+ email: "example@railstutorial.org",
+ password: "foobar",
+password_confirmation: "foobar")
